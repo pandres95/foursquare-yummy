@@ -4,6 +4,7 @@
   "description": "Random food chooser using Foursquare API",
   "main": "index.js",
   "scripts": {
+    "start": "node index.js"
     "test": "NODE_ENV=test mocha --recursive test"
   },
   "repository": {
