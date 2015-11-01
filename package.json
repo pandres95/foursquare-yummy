@@ -26,5 +26,8 @@
     "bool.js": "^0.3.5",
     "node-foursquare": "^0.3.0"
   },
-  "homepage": "https://github.com/pandres95/foursquare-yummy#readme"
+  "homepage": "https://github.com/pandres95/foursquare-yummy#readme",
+  "devDependencies": {
+    "mocha": "^2.3.3"
+  }
 }
