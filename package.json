@@ -1,0 +1,30 @@
+{
+  "name": "foursquare-yummy",
+  "version": "0.0.1",
+  "description": "Random food chooser using Foursquare API",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha --recursive test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pandres95/foursquare-yummy.git"
+  },
+  "keywords": [
+    "foursquare",
+    "api",
+    "booljs",
+    "food",
+    "random"
+  ],
+  "author": "Pablo Andrés Dorado Suárez <im@pandres95.me>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/pandres95/foursquare-yummy/issues"
+  },
+  "dependencies": {
+    "bool.js": "^0.3.5",
+    "node-foursquare": "^0.3.0"
+  },
+  "homepage": "https://github.com/pandres95/foursquare-yummy#readme"
+}

@@ -1,0 +1,8 @@
+secrets:
+    clientId: 'QG5FVMYMDEKZHTGHRRI0EUJLLD5CRE3H315KSNAZTROQ3HOA'
+    clientSecret: 'QGXGGD5KV3ROOMRK0BATF1XTTUPVERO3FQBXWUZ4ZB2I1FAL'
+    redirectUrl: 'http://api.yummy.bool.xyz/auth/token'
+foursquare:
+    mode: 'foursquare'
+    version: '20151101'
+locale: 'en'
