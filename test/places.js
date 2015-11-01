@@ -6,9 +6,9 @@ describe('Places', function () {
     ,   BoolError, model, dao;
 
     before(() => {
-        return bool('com.example.yummy_api').then((api) => {
+        return bool('com.example.foursquare_yummy').run().then((api) => {
             model = new api.app.models.Places();
-            dao = new api.app.models.Yummy();
+            dao = new api.app.dao.Yummy();
             BoolError = api.app.Error;
         });
     });
@@ -16,7 +16,7 @@ describe('Places', function () {
     describe('Models', () => {
 
         it('Explore places', () => {
-            return model.explore('4.635511', '-74.070194');
+            return model.explore('4.635511', '-74.070194', 1000);
         });
     });
 
